@@ -1,0 +1,1269 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.body{
+	background-image: url('/assets/images/i\ \(3\).png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 62rem;
+	height: 62rem;
+	margin: 0 auto;
+	font-family: 'Inter', sans-serif;
+}
+
+.main{
+	position: relative;
+	width: 47.2rem;
+	height:  20rem;
+	margin-left: 4.8rem;
+}
+
+
+.raleway-style {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .madimi-one-regular {
+	font-family: "Madimi One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+
+.travel{
+position: absolute;
+	width: 11rem;
+	height: 11rem;
+	left: -11rem;
+	top:  7rem;
+}
+
+.icon-whatsapp{
+	position: absolute;
+	width: 1.5rem;
+	height: 1.5rem;
+	top: 6.2rem;
+	left: 4.5rem;
+}
+
+.phone-whatsapp{
+	position: absolute;
+	color: #42bd41;
+	top: 6.4rem;
+	left: 6.5rem;
+	 border: none;
+}
+
+.icon{
+	position: absolute;
+	width:  1.3rem;
+	height: 1.3rem;
+	top:    4.2rem;
+	left:   4.7rem;
+}
+
+.icon-viber{
+	position: absolute;
+	width:  1.3rem;
+	height: 1.3rem;
+	top:    6.3rem;
+	left:   3.2rem;
+}
+
+.image{
+	margin-bottom: 30px;
+}
+
+.plane{
+	position: absolute;
+	width:  17rem;
+	height: 17rem;
+	right: -17rem;
+	top:     5rem;
+}
+
+.link-tg{
+	position: absolute;
+	top: 4.2rem;
+	left: 6.7rem;
+	color: rgb(58, 186, 228);
+}
+
+.link-viber{
+	position: relative;
+	top: 4.3rem;
+	right: 13rem;
+}
+
+.logo{
+	width: 300px;
+	height: 100px;
+	animation: App-logo-spin 5s infinite linear
+}
+
+        @keyframes App-logo-spin {
+            0% {
+                transform: rotateY(0deg);
+            }
+            
+            100% {
+                transform: rotateY(360deg); /* Возвращение в исходное положение */
+            }
+        }
+
+.contactUs{
+	margin-top: 40px;
+
+}
+
+.give{
+	width: auto;
+	height: 30px;
+}
+
+.giveButton{
+	position: absolute;
+	top: 70px;
+	right: 190px;
+	width: 200px;
+	height: 40px;
+	background-color: #42bd41;
+	justify-content: center;
+	color: white;
+	font-family: "Lobster", sans-serif;
+	font-style: normal;
+	font-size: medium;
+	border: #000000 solid;
+	border-radius: 1px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.giveButton:hover{
+	background-color: aliceblue;
+	border: #545454 solid 2px;
+	color: black;
+}
+
+
+
+.logotip2{
+	position: relative;
+	left: 23rem;
+	width: 9rem;
+	height: 5rem;
+
+}
+
+.rent{
+ width: 180px;
+	height: 160px;;
+	background-color: white;
+	border: hsl(120, 49%, 50%) solid;
+	color: #42bd41;
+	font-size: 15px;
+	font-weight: 420;
+	cursor: pointer;
+	font-family: "Lobster", sans-serif;
+	font-style: normal;
+}
+
+.rent:hover{
+	opacity: 0.7;
+}
+
+.keys-home{
+width: 3.7rem;
+height: 3.7rem;
+}
+
+.hot-rent{
+	width: 180px;
+	height: 160px;;
+	background-color: white;
+	border: hsl(120, 49%, 50%) solid;
+	color: #42bd41;
+	font-size: 15px;
+	font-weight: 400;
+	cursor: pointer;
+	font-family: "Lobster", sans-serif;
+	font-style: normal;
+}
+
+.hot-rent:hover{
+	opacity: 0.7;
+}
+
+.hot-rent-text{
+	margin-bottom: 0.5rem;
+}
+
+.hot-rent-image{
+	width: 50px;
+	height: 50px;
+}
+
+
+.sale{
+	width: 180px;
+	height: 160px;;
+	background-color: white;
+	border: hsl(120, 49%, 50%) solid;
+	color: #42bd41;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: "Lobster", sans-serif;
+	font-style: normal;
+	cursor: pointer;
+}
+
+.sale:hover{
+	opacity: 0.7;
+}
+
+.sale-image{
+	width: 60px;
+	height: 60px;
+}
+	
+.auto{
+	width: 180px;
+	height: 160px;;
+	background-color: white;
+	border: hsl(120, 49%, 50%) solid;
+	color: #42bd41;
+	font-size: 15px;
+	font-weight: 400;
+	cursor: pointer;
+	font-family: "Lobster", sans-serif;
+	font-style: normal;
+}
+
+.auto:hover{
+	opacity: 0.7;
+}
+
+.auto-image{
+	width: 120px;
+	height: 60px;
+}
+
+.exchange{
+	width: 180px;
+	height: 160px;;
+	background-color: white;
+	border: hsl(120, 49%, 50%) solid;
+	color: #42bd41;
+	font-size: 15px;
+	font-weight: 400;
+	cursor: pointer;
+	font-family: "Lobster", sans-serif;
+	font-style: normal;
+}
+
+.exchange:hover{
+	opacity: 0.7;
+}
+
+.exchange-image{
+	width: 50px;
+	height: 50px;
+}
+
+.exchange-text{
+	font-family: "Lobster", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.partys{
+	width: 180px;
+	height: 160px;
+	background-color: white;
+	border: hsl(120, 49%, 50%) solid;
+	color: #42bd41;
+	font-size: 16px;
+	font-weight: 400;
+	cursor: pointer;
+	font-family: "Lobster", sans-serif;
+	font-style: normal;
+}
+
+.partys:hover{
+	opacity: 0.7;
+}
+
+.partys-image{
+	width: 50px;
+	height: 50px;
+	border-radius: 90%;
+}
+
+.partys-text{
+	font-family: "Lobster", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+
+.documentAuto{
+	width: 180px;
+	height: 160px;
+	background-color: white;
+	border: hsl(120, 49%, 50%) solid;
+		color: #42bd41;
+	font-size: 14px;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.documentAuto:hover{
+	opacity: 0.7;
+}
+
+.buttonClicks{
+	display: flex;
+}
+
+.downButtons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.button{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.documentForAuto{
+	width: 53px;
+	height: 53px;
+}
+
+.textDocAuto{
+	font-family: "Lobster", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+position: relative;
+}
+
+
+.saleHouse{
+	width: 180px;
+	height: 160px;;
+	background-color: white;
+	border: hsl(120, 49%, 50%) solid;
+	color: #42bd41;
+	font-size: 17px;
+	font-weight: 400;
+	cursor: pointer;
+	font-family: "Lobster", sans-serif;
+	font-style: normal;
+}
+
+.saleHouse:hover{
+	opacity: 0.7;
+}
+
+.saleHouseImg{
+	width: 45px;
+	height: 45px;
+}
+
+
+ .font-lobster{
+	font-family: "Lobster", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+ }
+
+.chooseAFormatForRent{
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.docSaleHeader{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.onebedroomForRent{
+	width: 400px;
+	height: 50px;
+	background-color: #00FF7F;
+	border-bottom : 5px solid #545454;
+	cursor: pointer;
+}
+
+.onebedroom:hover{
+	opacity: 0.7;
+}
+	
+.twobedroomForRent{
+	width: 400px;
+	height: 50px;
+	background-color: #00FF7F;
+	border-bottom : 5px solid #545454;
+	cursor: pointer;
+}
+
+.twobedroom:hover{
+	opacity: 0.7;
+}
+
+.housesForRent{
+	width: 400px;
+	height: 50px;
+	background-color: #00FF7F;
+	border-bottom : 5px solid #545454;
+	cursor: pointer;
+}
+
+.houses:hover{
+	opacity: 0.7;
+}
+
+
+.selectRoomForRent{
+	position: relative;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.selectRoomForRentContainer{
+	font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	position: fixed;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 34px 36px 37px 36px;
+	border-radius: 10px;
+	left: 50vh;
+	top: 20vh;
+}
+
+.rentB{
+	position: relative;
+	left: 50px;
+}
+
+.studioForRent{
+	margin-top: 1rem;
+}
+
+.building{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	bottom: 5px;
+}
+
+.newHouse{
+	width: 200px;
+	height: 200px;
+	margin-top: 150px;
+	background-color: lightgray;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	transition: background-color 0.7s;
+	cursor: pointer;
+}
+
+.newHouse:hover{
+	background-color: aquamarine;
+}
+
+.key-with-hand{
+position: relative;
+	width: 7rem;
+	height: 7rem;
+	margin-bottom: 10rem;
+	top: 1rem;
+}
+
+.textNewH{
+	position: relative;
+	bottom: 35px;
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+}
+
+.build{
+	position: relative;
+	top: 5px;
+}
+
+.popupWindow{
+	position: fixed;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 1500;
+}
+
+.popupContainer{
+	position: relative;
+		width: 800px;
+		height: 500px;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		padding: 34px 36px 37px 36px;
+		border-radius: 10px;
+		left: 150px;
+		top: 100px;
+		overflow: auto;
+}
+
+
+
+.mo{
+	color: #42bd41;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+mo:hover{
+	opacity: 0.7;
+}
+
+.secondHand{
+	position: relative;
+	bottom: 200px;
+	width: 200px;
+	height: 200px;
+	margin-left: 250px;
+	background-color: lightgray;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+
+.second-house-info{
+	font-size: larger;
+	font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+}
+
+.secondHand:hover{
+	background-color: aquamarine;
+}
+
+.secondHand-text{
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+}
+
+.selectRoomForBuy{
+	position: fixed;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+}
+
+.o{
+	position: fixed;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.selectRoomForBuyContainer{
+	position: relative;
+	margin-top: 100px;
+	margin-left:300px;
+	z-index: 1000px;
+	border: 1.5px solid  gray;
+	transition: all 2s;
+}
+
+.marcus-vip5{
+	position: fixed;
+}
+
+.c{
+	position: relative;
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 34px 36px 37px 36px;
+	border-radius: 10px;
+	border: #545454 1px solid;
+}
+
+.selectRoomForRent-closeButton{
+	position: absolute;
+	top: -40px;
+	right: -40px;
+	width: 32px;
+	height: 32px;
+	background-image: url('../images/close.png');
+	background-color: #000000;
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+.close{
+	position: absolute;
+	top: -40px;
+	right: -40px;
+	width: 32px;
+	height: 32px;
+	background-image: url('../images/close.png');
+	background-color: #000000;
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+.selectRoomForRent-opened{
+	display: flex;
+}
+
+.studioForRent{
+		width: 400px;
+		height: 50px;
+		background-color: #00FF7F;
+		border-bottom : 5px solid #545454;
+		cursor: pointer;
+}
+
+	
+.chooseAFormatForBuy{
+	display: flex;
+	justify-content: center;
+}
+
+.chooseAFormatForSale{
+	display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+}
+
+.cars{
+	width: 500px;
+	height: 50px;
+	background-color:  #00FF7F;
+	border-bottom: 5px solid grey;
+	cursor: pointer;
+}
+.cars:hover{
+	opacity: 0.7;
+}
+
+.bike{
+	width: 500x;
+	height: 50px;
+	background-color: #00FF7F;
+	border-bottom: 5px solid grey;
+	cursor: pointer;
+}
+
+.bike:hover{
+	opacity: 0.7;
+}
+
+.transfer{
+	width: 500px;
+	height: 50px;
+	background-color:  #00FF7F;
+	border-bottom: 5px solid grey;
+	cursor: pointer;
+}
+
+.transfer:hover{
+	opacity: 0.7;
+}
+
+.selectTypeOfVenicle{
+	position: fixed;
+display: none;
+justify-content: center;
+align-items: center;
+left: 0px;
+top: 0px;
+background-color: rgba(0, 0, 0, 0.5);
+height: 100%;
+width: 100%;
+z-index: 1000;
+}	
+
+.selectTypeOfVenicleContainer{
+	font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		position: relative;
+		max-width: 500px;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		padding: 34px 36px 37px 36px;
+		border-radius: 10px;
+
+	}
+
+	.selectTypeOfVenicle-opened{
+		display: flex;
+	}
+		
+	.selectTypeOfVenicle-closeButton{
+		position: absolute;
+	top: -40px;
+	right: -40px;
+	width: 32px;
+	height: 32px;
+	background-image: url('../images/close.png');
+	background-color: black;
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	}
+
+	.venicleHeader{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+
+
+
+	.header{
+		font-family: "Madimi One", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.infoSpan{
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.info{
+		position: relative;
+		column-count: auto;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.info__beginning{
+		color: darkblue;
+		font-size: 25px;
+	}
+
+	.ob{
+		 position: fixed;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2000;
+	}
+
+	.textFav{
+		display: inline;
+		position: relative;
+		top: 20px;
+		
+	}
+
+	.back-button{
+		color: #42bd41;
+		background-color:white;
+		width: 30px;
+		height: 30px;
+		position: relative;
+		bottom: 20px;
+		font-size: 15px;
+		transition: color 0.5s;
+		cursor: pointer;
+	}
+
+	.back-button:hover{
+		color: blue;
+	}
+
+	.photo{
+		width: 100px;
+		height: 100px;
+		border-radius: 6px;
+		transition: transform 0.5s, box-shadow 0.5s;
+		cursor: pointer;
+	}
+
+	.photo:hover{
+		transform: translateY(-5px);
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.219);
+	}
+
+	.calif-contain{
+		position: relative;
+		left: 150px;
+		top: 100px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.calif{
+		overflow-y: scroll;
+		overflow: auto;
+	}
+	
+
+	.houseS{
+		position: relative;
+		top: 5px;
+		height: 50px;
+		width: 50px;
+	}
+
+	.santaMonicaContain{
+		position: relative;
+		left: 150px;
+		top: 100px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.santaMonica{
+		overflow-y: scroll;
+		overflow: auto;
+	}
+
+	.zenith-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.solaire-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.carnival-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.embassy-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.noble-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.harmonia-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.oasis-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.lucean-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.pristine-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.santaMonica-closeB{
+		position: relative;
+		top: 200px;
+	}
+
+	.aromJ-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.aromW-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.reef-contain{
+		position: relative;
+		left: 150px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+		overflow-y: scroll;
+		height: 550px;  
+       overflow: auto;
+	}
+
+	.aquarousContain{
+		position: relative;
+		left: 100px;
+		top: 90px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+	}
+
+	.aquarous{
+		overflow-y: scroll;
+		overflow: auto;
+	}
+
+
+	.infoSpan__name{
+		font-size: 30px;
+	}
+	
+	.seaspire-contain{
+		position: relative;
+		left: 100px;
+		top: 110px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		max-width: 900px;
+	}
+
+	.seaspire{
+		overflow: auto;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.price{
+		color: #42bd41;
+		
+	}
+
+	.maldives-container{
+		position: relative;
+		left: 100px;
+		top: 110px;
+		max-width: 900px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.maldives-studio{
+		overflow: auto;
+	}
+
+	.coteDAzur-container{
+		position: relative;
+		left: 100px;
+		top: 110px;
+		max-width: 900px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.atlantis-container{
+		position: relative;
+		left: 100px;
+		top: 110px;
+		max-width: 900px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.cloud-container{
+		position: relative;
+		left: 100px;
+		top: 110px;
+		max-width: 900px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.jewel-container{
+		position: relative;
+		left: 100px;
+		top: 110px;
+		max-width: 900px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.marcus-vip5-container{
+		position: relative;
+		left: 100px;
+		top: 110px;
+		max-width: 900px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.privacy-container{
+		position: relative;
+		left: 100px;
+		top: 110px;
+		max-width: 900px;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.header{
+		display: flex;
+		justify-content: center;
+	}
+
+	.infoHeader{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+
+	.partyInfo{
+		position: fixed;
+		display: none;
+		justify-content: center;
+		align-items: center;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0, 0, 0, 0.5);
+		height: 100%;
+		width: 100%;
+	}
+
+	.partyInfoContainer{
+		position: relative;
+		max-width: 500px;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		padding: 34px 36px 37px 36px;
+		border-radius: 10px;
+	}
+
+	.partyInfo-opened{
+		display: flex;
+	}
+
+	.modal{
+		display: none;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #00000090;
+		z-index: 10000;
+	}
+
+	.modal-content{
+		display: flex;
+		max-width: 90%;
+		max-height: 90%;
+		position: relative;
+		top: 35px;
+		border-radius: 5px;
+		left: 10rem;
+	}
+
+	.close-modal{
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		color: white;
+		font-size: 40px;
+		cursor: pointer;
+	}
+
+	.close-modal:hover{
+		color: red;
+	}
+
+	.modal-instruction{
+		color: white;
+		position: relative;
+		bottom: 17rem;
+		right: 30rem;
+	}
