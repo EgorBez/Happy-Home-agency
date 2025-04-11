@@ -21,6 +21,21 @@
 	margin-right: 30px;
 }
 
+.docSaleHouse{
+	position: relative;
+	z-index: 200;
+}
+
+.docSaleHouse-container{
+	position: relative;
+	border: rgb(120, 109, 109) solid 1px;
+	bottom: 250px;
+	left: 30px;
+	background-color: white;
+	padding: 34px 36px 37px 36px;
+	border-radius: 10px;
+}
+
 .container3{
 	position: relative;
 	width: 500px;
