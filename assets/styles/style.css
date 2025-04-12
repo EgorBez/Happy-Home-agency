@@ -313,13 +313,12 @@ height: 3.7rem;
 
 }
 
-
 .documentAuto{
 	width: 180px;
 	height: 160px;
 	background-color: white;
 	border: hsl(120, 49%, 50%) solid;
-		color: #42bd41;
+	color: #42bd41;
 	font-size: 14px;
 	font-weight: 400;
 	cursor: pointer;
@@ -498,10 +497,10 @@ position: relative;
 }
 
 .key-with-hand{
-position: relative;
-	width: 7rem;
-	height: 7rem;
-	margin-bottom: 10rem;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 45px;
 	top: 1rem;
 }
 
@@ -515,10 +514,46 @@ position: relative;
 		font-style: normal;
 }
 
+.golden-home{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 45px;
+	top: 0.3rem;
+}
+
 .build{
 	position: relative;
 	top: 5px;
 }
+
+.not-present-payment-window{
+	position: fixed;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+}
+
+.not-present-payment-container{
+	position: relative;
+		width: 800px;
+		height: 500px;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		padding: 34px 36px 37px 36px;
+		border-radius: 10px;
+		left: 150px;
+		top: 100px;
+		overflow: auto;
+		border: 1px #545454 solid;
+}
+
 
 .popupWindow{
 	position: fixed;
@@ -544,6 +579,7 @@ position: relative;
 		left: 150px;
 		top: 100px;
 		overflow: auto;
+		border: 1px #545454 solid;
 }
 
 
@@ -584,22 +620,34 @@ mo:hover{
 }
 
 .secondHand-text{
+	position: relative;
 	font-size: 20px;
 	font-family: "Raleway", sans-serif;
 		font-optical-sizing: auto;
 		font-weight: 400;
 		font-style: normal;
-}
+	bottom: 10px;
+	}
+
+	.not-present-payment-text{
+		position: relative;
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	bottom: 4px;
+	}
 
 .selectRoomForBuy{
 	position: fixed;
 	display: none;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
+	height: 100%;
 	left: 0px;
 	top: 0px;
-	height: 100%;
-	width: 100%;
 	z-index: 1000;
 }
 
@@ -614,19 +662,6 @@ mo:hover{
 	width: 100%;
 }
 
-.selectRoomForBuyContainer{
-	position: relative;
-	margin-top: 100px;
-	margin-left:300px;
-	z-index: 1000px;
-	border: 1.5px solid  gray;
-	transition: all 2s;
-}
-
-.marcus-vip5{
-	position: fixed;
-}
-
 .c{
 	position: relative;
 	max-width: 500px;
@@ -636,6 +671,57 @@ mo:hover{
 	padding: 34px 36px 37px 36px;
 	border-radius: 10px;
 	border: #545454  solid 1px;
+}
+
+.not-present-payment{
+	position: relative;
+	bottom: 400px;
+	left: 500px;
+	width: 200px;
+	height: 200px;
+	background-color: lightgray;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	transition: background-color 0.4s;
+	cursor: pointer;
+}
+
+.not-present-payment:hover{
+background-color: aquamarine;
+}
+
+.peak-tower-container{
+	position: relative;
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 34px 36px 37px 36px;
+	border-radius: 10px;
+	border: #545454  solid 1px;
+	left: 12rem;
+	top: 5rem;
+}
+
+.red{
+	color: red;
+	font-size: larger;
+}
+
+.selectRoomForBuyContainer{
+	position: relative;
+	left: 220px;
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 34px 36px 37px 36px;
+	border-radius: 10px;
+	border: #545454  solid 1px;
+}
+
+.marcus-vip5{
+	position: fixed;
 }
 
 .selectRoomForRent-closeButton{

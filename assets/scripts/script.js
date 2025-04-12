@@ -117,6 +117,12 @@ let privacyButton = document.querySelector('.more26');
 let marcusVip5 = document.querySelector('.marcus-vip5');
 let backMarcusVip5 = document.querySelector('.marcus-vip5-back');
 let marcusVip5Button = document.querySelector('.more27');
+let notPresentPaymentButton = document.querySelector('.not-present-payment');
+let notPresentPaymentWindow = document.querySelector('.not-present-payment-window');
+let notPresentPaymentBack = document.querySelector('.not-present-payment-back');
+let peakTower = document.querySelector('.peak-tower');
+let peakTowerButton = document.querySelector('.mo28');
+let peakTowerBack = document.querySelector('.back-peak');
 // Пишем функции для открытия и закрытия модальных окон выбора недвижимости
 
 
@@ -146,7 +152,9 @@ function openSelectRoom(){
     }
     
     newHouseButton.addEventListener('click' ,openPopupWindow);
+    newHouseButton.addEventListener('click', closeSelectBuy);
     back.addEventListener('click', closePopupWindoww);
+    back.addEventListener('click', openSelectBuy);
 
     function openSecondHouse(){
         secondHouseWindow.style.display = 'block';
@@ -157,7 +165,37 @@ function openSelectRoom(){
     }
 
     secondHouseButton.addEventListener('click', openSecondHouse);
+    secondHouseButton.addEventListener('click', closeSelectBuy);
     backSecondHouse.addEventListener('click', closeSecondHouse);
+    backSecondHouse.addEventListener('click', openSelectBuy);
+
+    function openNotPresentPayment(){
+        notPresentPaymentWindow.style.display = 'block';
+    }
+
+    function closeNotPresentPayment(){
+        notPresentPaymentWindow.style.display = 'none';
+    }
+
+    notPresentPaymentButton.addEventListener('click', openNotPresentPayment);
+    notPresentPaymentButton.addEventListener('click', closeSelectBuy);
+    notPresentPaymentBack.addEventListener('click', closeNotPresentPayment);
+    notPresentPaymentBack.addEventListener('click', openSelectBuy);
+
+    //Начало написания логики для контейнеров с жильем для ипотеки
+
+    function openPeakTower(){
+        peakTower.style.display = 'block';
+    }
+
+    function closePeakTower(){
+        peakTower.style.display = 'none';
+    }
+
+    peakTowerButton.addEventListener('click', openPeakTower);
+    peakTowerBack.addEventListener('click', closePeakTower);
+
+    //Начало написания логики для контейнеров со вторичным жильем - The beginning of writing logic for new houses's div
 
     function openMaldivesStudio(){
         maldivesStudio.style.display = 'block';
@@ -272,6 +310,8 @@ function openSelectRoom(){
     }
     givebutton.addEventListener('click', openfeedbackWindow);
     feedbackButton.addEventListener('click', closeFeedbackWindow);
+
+    // Начало логики с отправлением заявки в tg бота - The logic start of sending information to telegram bot
     
     feedbackForm.addEventListener('submit', async function(event){
         event.preventDefault();
