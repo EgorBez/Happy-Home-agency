@@ -390,7 +390,6 @@ position: relative;
 .chooseAFormatForRent{
 	display: flex;
 	justify-content: center;
-	
 }
 
 
@@ -706,6 +705,32 @@ background-color: aquamarine;
 .red{
 	color: red;
 	font-size: larger;
+}
+
+.caribean-container{
+	position: relative;
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 34px 36px 37px 36px;
+	border-radius: 10px;
+	border: #545454  solid 1px;
+	left: 12rem;
+	top: 5rem;
+}
+
+.laguna-three-container{
+	position: relative;
+	max-width: 750px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 34px 36px 37px 36px;
+	border-radius: 10px;
+	border: #545454  solid 1px;
+	left: 12rem;
+	top: 5rem;
 }
 
 .selectRoomForBuyContainer{

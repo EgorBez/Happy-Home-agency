@@ -123,20 +123,26 @@ let notPresentPaymentBack = document.querySelector('.not-present-payment-back');
 let peakTower = document.querySelector('.peak-tower');
 let peakTowerButton = document.querySelector('.mo28');
 let peakTowerBack = document.querySelector('.back-peak');
+let grandCarribean = document.querySelector('.caribean');
+let grandCarribeanButton = document.querySelector('.mo29');
+let grandCarribeanBack = document.querySelector('.back-caribean');
+let lagunaThree = document.querySelector('.laguna-three');
+let lagunaThreeButton = document.querySelector('.mo30');
+let lagunaThreeBack = document.querySelector('.back-laguna-three');
 // Пишем функции для открытия и закрытия модальных окон выбора недвижимости
 
 
 function openSelectRoom(){
     selectRoom.style.display = 'block';
-    };
+    }
 
     function openSelectBuy(){
         selectRoomForSale.style.display = 'block';
-    };
+    }
     
     function closeSelectBuy(){
         selectRoomForSale.style.display = 'none';
-    };
+    }
     
     selectRoomForSaleClose.addEventListener('click', closeSelectBuy);
     
@@ -182,7 +188,99 @@ function openSelectRoom(){
     notPresentPaymentBack.addEventListener('click', closeNotPresentPayment);
     notPresentPaymentBack.addEventListener('click', openSelectBuy);
 
-    //Начало написания логики для контейнеров с жильем для ипотеки
+
+    function openSelectTypeOfVenicle(){
+        selectTypeOfVenicle.classList.add('selectTypeOfVenicle-opened');
+    }
+    function closeSelectTypeOfVenicle(){
+        selectTypeOfVenicle.classList.remove('selectTypeOfVenicle-opened');
+    }
+    
+    venicleButton.addEventListener('click', openSelectTypeOfVenicle);
+    selectTypeOfVenicleCloseButton.addEventListener('click', closeSelectTypeOfVenicle);
+
+    function openSelectCar(){
+        selectCar.classList.add('carList-opened');
+        contactUs.style.display = 'none';
+    }
+    function closeSelectCar(){
+        selectCar.classList.remove('carList-opened');
+        contactUs.style.display = 'block';
+    }
+    carsButton.addEventListener('click', openSelectCar);
+    
+    
+    function openSelectMotorbike(){
+        selectMotorbike.classList.add('motorbikeList-opened');
+        contactUs.style.display = 'none';
+    }
+    function closeSelectMotorbike(){
+        selectMotorbike.classList.remove('motorbikeList-opened');
+        contactUs.style.display = 'block';
+    }
+    bikesButton.addEventListener('click', openSelectMotorbike);
+    
+    function openSelectTransfer(){
+        selectTransfer.classList.add('transferList-opened');
+        contactUs.style.display = 'none';
+    }
+    function closeSelectTransfer(){
+        selectTransfer.classList.remove('transferList-opened');
+        contactUs.style.display = 'block';
+    }
+    transferButton.addEventListener('click', openSelectTransfer);
+    
+    function openPartyInfo(){
+        partyInfo.classList.add('partyInfo-opened');
+    }
+    
+    function closePartyInfo(){
+        partyInfo.classList.remove('partyInfo-opened');
+    }
+    
+    partyButton.addEventListener('click', openPartyInfo);
+    partyInfoCloseButton.addEventListener('click', closePartyInfo);
+    
+    function openSelectStudio(){
+        selectStudio.classList.add('selectStudioForRent-opened');
+        contactUs.style.display = 'none';
+    }
+    
+    function closeSelectStudio(){
+        selectStudio.classList.remove('selectStudioForRent-opened');
+        contactUs.style.display = 'block';
+    }
+    
+    studioButton.addEventListener('click', openSelectStudio);
+    
+    
+    function openSelectOneBedroom(){
+        selectOneBedroom.classList.add('selectOneBedroomForRent-opened');
+        contactUs.style.display = 'none';
+    }
+    
+    function closeSelectOneBedroom(){
+        selectOneBedroom.classList.remove('selectOneBedroomForRent-opened');
+        contactUs.style.display = 'block';
+    }
+    
+    bedroomButton.addEventListener('click', openSelectOneBedroom);
+    
+    function selectTwoBedroomOpen(){
+        selectTwoBedroom.classList.add('selectTwoBedroomForRent-opened');
+        contactUs.style.display = 'none';
+    }
+
+    function selectTwoBedroomClose(){
+        selectTwoBedroom.classList.remove('selectTwoBedroomForRent-opened');
+        contactUs.style.display = 'block';
+    
+    }
+    
+    twoBedroomButton.addEventListener('click', selectTwoBedroomOpen);
+    
+
+    //Начало написания логики для контейнеров с жильем для ипотеки - the beginning of writing logic for ipoteka rooms div
 
     function openPeakTower(){
         peakTower.style.display = 'block';
@@ -195,7 +293,29 @@ function openSelectRoom(){
     peakTowerButton.addEventListener('click', openPeakTower);
     peakTowerBack.addEventListener('click', closePeakTower);
 
-    //Начало написания логики для контейнеров со вторичным жильем - The beginning of writing logic for new houses's div
+    function openCaribean(){
+        grandCarribean.style.display = 'block';
+    }
+
+    function closeCaribean(){
+        grandCarribean.style.display = 'none';
+    }
+
+    grandCarribeanButton.addEventListener('click', openCaribean);
+    grandCarribeanBack.addEventListener('click', closeCaribean);
+
+    function openLaguna(){
+        lagunaThree.style.display = 'block';
+    }
+
+    function closeLaguna(){
+        lagunaThree.style.display = 'none';
+    }
+
+    lagunaThreeButton.addEventListener('click', openLaguna);
+    lagunaThreeBack.addEventListener('click', closeLaguna);
+
+    //Начало написания логики для контейнеров со вторичным жильем - The beginning of writing logic for live home div
 
     function openMaldivesStudio(){
         maldivesStudio.style.display = 'block';
@@ -340,105 +460,8 @@ function openSelectRoom(){
         closeFeedbackWindow();
     });
     
-    
-    
-    // Присваиваем значения переменным, то есть говорим что им делать, когда на на них нажмут
     rent.addEventListener('click', openSelectRoom);
     selectRoomCloseButton.addEventListener('click', closeSelectRoom);
-    
-    function openSelectTypeOfVenicle(){
-        selectTypeOfVenicle.classList.add('selectTypeOfVenicle-opened');
-    }
-    function closeSelectTypeOfVenicle(){
-        selectTypeOfVenicle.classList.remove('selectTypeOfVenicle-opened');
-    }
-    
-    venicleButton.addEventListener('click', openSelectTypeOfVenicle);
-    selectTypeOfVenicleCloseButton.addEventListener('click', closeSelectTypeOfVenicle);
-    
-    function openSelectCar(){
-        selectCar.classList.add('carList-opened');
-        contactUs.style.display = 'none';
-    }
-    function closeSelectCar(){
-        selectCar.classList.remove('carList-opened');
-        contactUs.style.display = 'block';
-    }
-    carsButton.addEventListener('click', openSelectCar);
-    
-    
-    function openSelectMotorbike(){
-        selectMotorbike.classList.add('motorbikeList-opened');
-        contactUs.style.display = 'none';
-    }
-    function closeSelectMotorbike(){
-        selectMotorbike.classList.remove('motorbikeList-opened');
-        contactUs.style.display = 'block';
-    }
-    bikesButton.addEventListener('click', openSelectMotorbike);
-    
-    function openSelectTransfer(){
-        selectTransfer.classList.add('transferList-opened');
-        contactUs.style.display = 'none';
-    }
-    function closeSelectTransfer(){
-        selectTransfer.classList.remove('transferList-opened');
-        contactUs.style.display = 'block';
-    }
-    transferButton.addEventListener('click', openSelectTransfer);
-    
-    function openPartyInfo(){
-        partyInfo.classList.add('partyInfo-opened');
-    }
-    
-    function closePartyInfo(){
-        partyInfo.classList.remove('partyInfo-opened');
-    }
-    
-    partyButton.addEventListener('click', openPartyInfo);
-    partyInfoCloseButton.addEventListener('click', closePartyInfo);
-    
-    function openSelectStudio(){
-        selectStudio.classList.add('selectStudioForRent-opened');
-        contactUs.style.display = 'none';
-    }
-    
-    function closeSelectStudio(){
-        selectStudio.classList.remove('selectStudioForRent-opened');
-        contactUs.style.display = 'block';
-    }
-    
-    studioButton.addEventListener('click', openSelectStudio);
-    
-    
-    function openSelectOneBedroom(){
-        selectOneBedroom.classList.add('selectOneBedroomForRent-opened');
-        contactUs.style.display = 'none';
-    }
-    
-    function closeSelectOneBedroom(){
-        selectOneBedroom.classList.remove('selectOneBedroomForRent-opened');
-        contactUs.style.display = 'block';
-    }
-    
-    
-    bedroomButton.addEventListener('click', openSelectOneBedroom);
-    
-    
-    function selectTwoBedroomOpen(){
-        selectTwoBedroom.classList.add('selectTwoBedroomForRent-opened');
-        contactUs.style.display = 'none';
-    }
-    
-    function selectTwoBedroomClose(){
-        selectTwoBedroom.classList.remove('selectTwoBedroomForRent-opened');
-        contactUs.style.display = 'block';
-    
-    }
-    
-    twoBedroomButton.addEventListener('click', selectTwoBedroomOpen);
-
-    
 
 function openAquarous(){
     aquarous.style.display = 'block';
@@ -627,6 +650,8 @@ function closeBeverlyHill(){
 
 hillButton.addEventListener('click', openBeverlyHill);
 backHill.addEventListener('click', closeBeverlyHill);
+
+// Начало написания логики открывания картинки на весь экран - 
 
 document.addEventListener('DOMContentLoaded', function(){
     const modal = document.getElementById('modal');
