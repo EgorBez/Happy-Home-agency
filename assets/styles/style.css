@@ -980,6 +980,13 @@ z-index: 1000;
        overflow: auto;
 	}
 
+	.hill-contain{
+		position: relative;
+		left: 8rem;
+		top: 6rem;
+		max-width: 900px;
+	}
+
 	.calif{
 		overflow-y: scroll;
 		overflow: auto;
@@ -1027,7 +1034,8 @@ z-index: 1000;
 
 	.solaire-contain{
 		position: relative;
-		left: 150px;
+		left: 120px;
+		top: 3rem;
 		font-family: "Raleway", sans-serif;
 		font-optical-sizing: auto;
 		font-weight: 400;
@@ -1054,6 +1062,7 @@ z-index: 1000;
 	.embassy-contain{
 		position: relative;
 		left: 150px;
+		top: 5rem;
 		font-family: "Raleway", sans-serif;
 		font-optical-sizing: auto;
 		font-weight: 400;
@@ -1079,7 +1088,8 @@ z-index: 1000;
 
 	.harmonia-contain{
 		position: relative;
-		left: 150px;
+		left: 120px;
+		top: 5rem;
 		font-family: "Raleway", sans-serif;
 		font-optical-sizing: auto;
 		font-weight: 400;
@@ -1092,7 +1102,8 @@ z-index: 1000;
 
 	.oasis-contain{
 		position: relative;
-		left: 150px;
+		left: 120px;
+		top: 2rem;
 		font-family: "Raleway", sans-serif;
 		font-optical-sizing: auto;
 		font-weight: 400;
@@ -1118,7 +1129,8 @@ z-index: 1000;
 
 	.pristine-contain{
 		position: relative;
-		left: 150px;
+		left: 120px;
+		top: 3rem;
 		font-family: "Raleway", sans-serif;
 		font-optical-sizing: auto;
 		font-weight: 400;
@@ -1349,6 +1361,176 @@ z-index: 1000;
 		z-index: 10000;
 	}
 
+	.container2{
+		position: relative;
+		width: 1000px;
+		height:60px ;
+		display: flex;
+		flex-direction: row;
+		background-color: white;
+		padding: 34px 36px 37px 36px;
+		border-radius: 10px;
+		padding-left: 50px;
+		display: flex;
+		font-family: "Raleway", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 400;
+			font-style: normal;
+	}
+	
+	.contactText{
+		white-space: nowrap;
+		margin-right: 30px;
+	}
+	
+	.docSaleHouse{
+		position: relative;
+		z-index: 200;
+	}
+	
+	.docSaleHouse-container{
+		position: relative;
+		border: rgb(120, 109, 109) solid 1px;
+		bottom: 250px;
+		left: 30px;
+		background-color: white;
+		padding: 34px 36px 37px 36px;
+		border-radius: 10px;
+	}
+	
+	.container3{
+		position: relative;
+		width: 500px;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		padding: 34px 36px 37px 36px;
+		border-radius: 10px;
+		height: 30px;
+	}
+	
+	
+	.doc-sale-house{
+		position: fixed;
+		display: none;
+		justify-content: center;
+		align-items: center;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0, 0, 0, 0.5);
+		height: 100%;
+		width: 100%;
+		z-index: 1000;
+	}
+	
+	.doc-sale-container{
+		position: relative;
+		width: 1000px;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		padding: 34px 36px 37px 36px;
+		border-radius: 10px;
+	}
+	
+	
+	
+	.logotip{
+		display: flex;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		margin-right: 100px;
+	margin-top: 25px;
+	
+	}
+	
+	.contactUs-opened{
+		display: flex;
+	}
+	
+	.feedback__modal{
+		position: relative;
+		max-width: 500px;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		padding: 34px 36px 37px 36px;
+		border-radius: 10px;
+		border: 1px solid black;
+		height: 150px;
+	}
+	
+	.feedback{
+		position: fixed;
+		display: none;
+		justify-content: center;
+		align-items: center;
+		left: 340px;
+		top: 190px;
+		height: 100%;
+		width: 100%;
+	}
+	
+	.feedback__putNumber{
+		width: 300px;
+		height: 30px;
+		border: #42bd41 solid 3px;
+	}
+	
+	.feedback__putNumber:focus{
+		outline: none;
+		border-color: blue;
+		box-shadow: 0 0 0 0.2rem rgba(0,120, 255, 0.2);
+	}
+	
+	.feedback__putName{
+		border: #42bd41 solid 3px;
+		height: 30px;
+	}
+	
+	.feedback__putName:focus{
+		outline: none;
+		border-color: blue;
+		box-shadow: 0 0 0 0.2rem rgba(0,120, 255, 0.2);
+	}
+	
+	.feedback__button{
+		position: absolute;
+		top: -40px;
+		right: -40px;
+		width: 32px;
+		height: 32px;
+		background-image:url('/assets/images/close.png');
+		color: white;
+		background-color: black;
+		background-repeat: no-repeat;
+		background-position: center;
+		transition: color 0.5s;
+		cursor: pointer;
+	}
+	
+	.feedback__submit{
+	width: 200px;
+		height: 40px;
+		position: absolute;
+		top: 100px;
+		left: 40px;
+		background-color: #42bd41;
+		justify-content: center;
+		color: white;
+		font-family: "Lobster", sans-serif;
+		font-style: normal;
+		cursor: pointer;
+		transition: all 0.5s;
+	}
+	
+	.feedback__submit:hover{
+		color: black;
+		background-color: aqua;
+	}
+	
+
 	.modal-content{
 		display: flex;
 		max-width: 90%;
@@ -1378,3 +1560,35 @@ z-index: 1000;
 		bottom: 17rem;
 		right: 30rem;
 	}
+
+	@media (max-width: 480px) {
+
+		.body{
+			height: 20rem;
+			background-image: none;
+		}
+
+		.buttons{
+			position: relative;
+			right: 100px;
+		
+		}
+
+		.rent{
+			width: 150px;
+		}
+
+		.sale{
+			width: 200px;
+		}
+
+		.hot-rent{
+			width: 150px;
+		}
+
+
+		.logo{
+			position: relative;
+			right: 350px;
+		}
+	  }
