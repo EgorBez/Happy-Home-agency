@@ -22,7 +22,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 <link  class="mini-icon" rel="icon" href="./assets/images/logo2.png">
     <style>
    </style>
@@ -69,22 +71,46 @@
     <img class="partys-image image" src="./assets/images/partys.png" alt="Эмодзи">
                 
 
-<button class="exchange button"  onclick="window.location.href = 'https:/t.me/HappyHomePattaya/16';">
+<button class="exchange button">
     <p class="exchangeText">Обмен валют</p>
     <img class="exchange-image image" src="./assets/images/exchange.png" alt="Эмодзи">
 </button>
-    </div>
 
+<div class="select-exchange">
+    <div class="select-exchange-container">
+        <button class="select-exchange-closeButton close"></button>
+        <img class="money-logo" src="assets/images/money-bag-flat-vector-illustration_149152-879.jpg" alt="картинка">
+        <h2 class="select-exchange-header">Выберите город обмена</h2>
+        <img class="thailand-exchange" src="assets/images/money.jpeg" alt="картинка">
+        <h1 class="thailand-choose" onclick="window.location.href = 'https:/t.me/HappyHomePattaya/16';">Паттайя</h1>
+        <img class="vietnam-exchange" src="assets/images/money.jpeg" alt="картинка">
+        <h1 class="vietnam-choose" onclick="window.location.href = 'https:/t.me/HappyHomeVietnam/273';">Нячанг</h1>
+    </div>
 </div>
 
     <div class="selectRoomForRent o">
         <div class="selectRoomForRentContainer">
             <button class="selectRoomForRent-closeButton close"></button>
-            <h2 class="chooseAFormatForRent">Выберите квартиру</h2>
+            <img class="select-room-img" src="./assets/images/houseR.png" alt="картинка">
+            <h2 class="chooseAFormatForRent">Выберите квартиру : </h2>
+            <img  class="select-country-img" src="./assets/images/palm.png" alt="картинка">
+            <h2 class="choose-thailand">Таиланд (Паттайя)</h2>
+            <img class="select-country-image" src="./assets/images/palm.png" alt="картинка">
+            <h2 class="choose-vietnam">Вьетнам (Нячанг)</h2>
+           <div class="buttons-rent-thailand">
             <button  onclick="window.location.href = 'https:/t.me/HappyHomePattaya/9';" class="studioForRent rentB">Студии</button>
             <button class="onebedroomForRent rentB"  onclick="window.location.href ='https:/t.me/HappyHomePattaya/13';" >1 бедрум</button>
             <button class="twobedroomForRent rentB" onclick="window.location.href ='https:/t.me/HappyHomePattaya/10';">2 бедрум</button>
             <button class="housesForRent rentB" onclick="window.location.href ='https:/t.me/HappyHomePattaya/6';">Дома</button>
+             </div>
+
+            <div class="buttons-rent-vietnam">
+            <button  onclick="window.location.href = 'https:/t.me/HappyHomeVietnam/10';" class="studio-for-rent-Viet rentB">Студии</button>
+            <button class="onebedroom-for-rent-Viet rentB"  onclick="window.location.href ='https:/t.me/HappyHomeVietnam/8';" >1 бедрум</button>
+            <button class="twobedroom-for-rent-Viet rentB" onclick="window.location.href ='https:/t.me/HappyHomeVietnam/9';">2 бедрум</button>
+             <button class="threebedroom-for-rent-Viet rentB" onclick="window.location.href ='https:/t.me/HappyHomeVietnam/54';">3 бедрум</button>
+            <button class="houses-for-rent-Viet rentB" onclick="window.location.href ='https:/t.me/HappyHomeVietnam/11';">Дома</button>
+            </div>
         </div>
     </div>
 
@@ -219,8 +245,6 @@
             </span>
         </div>
     </div>
-
-
 
     <div class="popupWindow">
         <div class="popupContainer">
@@ -505,8 +529,7 @@
                    </div> 
             </div>
         </div>
-
-        
+     
         <div class="grand-solaire-noble ob">
             <div class="noble-contain c">
                 <h2 class="header">Информация о кондоминимуме</h2>
@@ -1257,10 +1280,15 @@ Riviera California создаст комфорт и безопасность п�
             <button class="selectTypeOfVenicle-closeButton close"></button>
             <h2 class="venicleHeader">Выберите формат транспорта или трансфер</h2>
             <button class="cars" onclick="window.location.href ='https:/t.me/HappyHomePattaya/14';">Машины</button>
-            <button class="bike" onclick="window.location.href ='https:/t.me/HappyHomePattaya/15';">Скутеры</button>
+            <button class="bike">Скутеры</button>
             <button class="transfer" onclick="window.location.href ='https:/t.me/HappyHomePattaya/18';">Трансфер</button>
+
+             <div class="choose-bike-city">
+        <span  class="choose-bike-city-text">Выберите : В <p onclick="window.location.href ='https:/t.me/HappyHomeVietnam/307';"  class="choose-bike-Nhatrang">Нячанге</p> или <p onclick="window.location.href ='https:/t.me/HappyHomePattaya/15';" class="choose-bike-pattaya">Паттайе?</p></span>
+    </div>
         </div>
     </div>
+
 
     <div class="partyInfo o">
         <div class="partyInfoContainer c">
@@ -1293,10 +1321,8 @@ Riviera California создаст комфорт и безопасность п�
     <div class="contactUs">
         <div class="container2">
             <p class="contactText"> Свяжитесь с нами и мы ответим на все вопросы : 
-                <img class="icon-whatsapp" src="./assets/images/iconWhatsapp.png"><a href="https://api.whatsapp.com/send?phone=79952947808" class="phone-whatsapp">+79952947808</a>
-                <img class="icon-viber" src="./assets/images/iconViber.png"><a class="link-viber" href="viber://add?number=79952947808">79952947808</a>
-                
-             <img class="icon" src="./assets/images/icon.png"> <a href="https://t.me/HappyHomePattaya" class="link-tg"> Кликай здесь! </a> <br> <img class="logotip2" src="./assets/images/logo2.png"> </p>
+                <img class="icon-whatsapp" src="./assets/images/iconWhatsapp.png"><span onclick="window.location.href = 'https:/api.whatsapp.com/send?phone=79952947808';" class="phone-whatsapp">+79952947808</span>
+             <img class="icon" src="./assets/images/icon.png"> <span onclick="window.location.href = 'https:/t.me/HappyHomeAsiaAgency';" class="link-tg"> Кликай здесь! </span> <br> <img class="logotip2" src="./assets/images/logo2.png"> </p>
              <span class="give">Оставьте свою заявку и мы обязательно вышлем варианты <button class="giveButton">Оставить заявку</button></span>
         </div>
     </div>

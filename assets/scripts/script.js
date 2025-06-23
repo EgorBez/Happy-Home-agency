@@ -20,6 +20,8 @@ let venicleButton = document.querySelector('.auto');
 let selectTypeOfVenicleCloseButton = document.querySelector('.selectTypeOfVenicle-closeButton');
 let selectCar = document.querySelector('.carList');
 let exchangeButton = document.querySelector('.exchange');
+let selectexchange = document.querySelector('.select-exchange');
+let selectexchangeButton = document.querySelector('.select-exchange-closeButton');
 let partyInfo = document.querySelector('.partyInfo');
 let partyInfoCloseButton = document.querySelector('.partyInfo-closeButton');
 let partyInfoHeader = document.querySelector('.partyInfoHeader');
@@ -129,6 +131,8 @@ let grandCarribeanBack = document.querySelector('.back-caribean');
 let lagunaThree = document.querySelector('.laguna-three');
 let lagunaThreeButton = document.querySelector('.mo30');
 let lagunaThreeBack = document.querySelector('.back-laguna-three');
+let chooseBikeCity  = document.querySelector('.choose-bike-city');
+
 // Пишем функции для открытия и закрытия модальных окон выбора недвижимости
 
 
@@ -198,6 +202,7 @@ function openSelectRoom(){
     
     venicleButton.addEventListener('click', openSelectTypeOfVenicle);
     selectTypeOfVenicleCloseButton.addEventListener('click', closeSelectTypeOfVenicle);
+    selectTypeOfVenicleCloseButton.addEventListener('click', closeSelectBikeCity);
 
     function openSelectCar(){
         selectCar.classList.add('carList-opened');
@@ -210,16 +215,27 @@ function openSelectRoom(){
     carsButton.addEventListener('click', openSelectCar);
     
     
-    function openSelectMotorbike(){
-        selectMotorbike.classList.add('motorbikeList-opened');
-        contactUs.style.display = 'none';
+    function openSelectExchange(){
+        selectexchange.style.display = 'block';
     }
-    function closeSelectMotorbike(){
-        selectMotorbike.classList.remove('motorbikeList-opened');
-        contactUs.style.display = 'block';
+
+    function closeSelectExchange(){
+        selectexchange.style.display = 'none';
     }
-    bikesButton.addEventListener('click', openSelectMotorbike);
-    
+
+    exchangeButton.addEventListener('click', openSelectExchange);
+    selectexchangeButton.addEventListener('click', closeSelectExchange);
+
+    function openSelectBikeCity(){
+        chooseBikeCity.style.display = 'block';
+    }
+
+    function closeSelectBikeCity(){
+        chooseBikeCity.style.display = 'none';
+    }
+
+    bikesButton.addEventListener('click', openSelectBikeCity);  
+
     function openSelectTransfer(){
         selectTransfer.classList.add('transferList-opened');
         contactUs.style.display = 'none';

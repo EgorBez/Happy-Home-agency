@@ -4,6 +4,12 @@
 	border: 0;
 }
 
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .body{
 	background-image: url('/assets/images/background.png');
 	background-size: contain;
@@ -59,6 +65,7 @@ position: absolute;
 	top: 6.4rem;
 	left: 6.5rem;
 	 border: none;
+	 cursor: pointer;
 }
 
 .icon{
@@ -67,14 +74,6 @@ position: absolute;
 	height: 1.3rem;
 	top:    4.2rem;
 	left:   4.7rem;
-}
-
-.icon-viber{
-	position: absolute;
-	width:  1.3rem;
-	height: 1.3rem;
-	top:    6.3rem;
-	left:   3.2rem;
 }
 
 .image{
@@ -94,12 +93,7 @@ position: absolute;
 	top: 4.2rem;
 	left: 6.7rem;
 	color: rgb(58, 186, 228);
-}
-
-.link-viber{
-	position: relative;
-	top: 4.3rem;
-	right: 13rem;
+	cursor: pointer;
 }
 
 .logo{
@@ -124,13 +118,18 @@ position: absolute;
 }
 
 .give{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 	width: auto;
 	height: 30px;
+	position: relative;
+	left: 140px;
 }
 
 .giveButton{
 	position: absolute;
-	top: 70px;
+	top: 40px;
 	right: 190px;
 	width: 200px;
 	height: 40px;
@@ -387,9 +386,20 @@ position: relative;
 	font-style: normal;
  }
 
+ .ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .chooseAFormatForRent{
-	display: flex;
-	justify-content: center;
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	position: relative;
+	bottom: 3rem;
+	left: 17rem;
+	
 }
 
 
@@ -401,6 +411,9 @@ position: relative;
 }
 
 .onebedroomForRent{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 	width: 400px;
 	height: 50px;
 	background-color: #00FF7F;
@@ -413,6 +426,9 @@ position: relative;
 }
 	
 .twobedroomForRent{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 	width: 400px;
 	height: 50px;
 	background-color: #00FF7F;
@@ -425,6 +441,9 @@ position: relative;
 }
 
 .housesForRent{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 	width: 400px;
 	height: 50px;
 	background-color: #00FF7F;
@@ -436,7 +455,6 @@ position: relative;
 	opacity: 0.7;
 }
 
-
 .selectRoomForRent{
 	position: relative;
 	display: none;
@@ -446,6 +464,178 @@ position: relative;
 	top: 0px;
 	height: 100%;
 	width: 100%;
+	z-index: 400;
+}
+
+.buttons-rent-thailand{
+	position: relative;
+	right: 1rem;
+	bottom: 7.5rem;
+}
+
+.choose-vietnam{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	position: relative;
+	left: 32rem;
+	bottom: 7.8rem;
+}
+
+.choose-thailand{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	position: relative;
+	bottom: 3rem;
+	left: 5rem;
+	
+}
+
+.select-room-img{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	left: 11rem;
+	bottom: 1rem;
+}
+
+.select-country-img{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	bottom: 0.5rem;
+	left: 1rem;
+	
+}
+
+.money-logo{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	left: 13rem;
+	bottom: 1.5rem;
+}
+
+.thailand-choose{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #42bd41;
+  position: relative;
+  left: 100px;
+  bottom: 70px;
+  transition: all 0.5s;
+	cursor: pointer;
+}
+
+.thailand-choose:hover{
+	color: blue;
+	transform: translateY(-5px);
+}
+
+.choose-bike-city{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	left: 100px;
+	position: relative;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 400;
+}
+
+.choose-bike-Nhatrang{
+	color: #42bd41;
+	cursor: pointer;
+}
+
+.choose-bike-pattaya{
+	color: #42bd41;
+	cursor: pointer;
+}
+
+.select-exchange-header{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  bottom: 70px;
+  left: 300px;
+}
+
+.vietnam-choose{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #42bd41;
+  position: relative;
+  left: 100px;
+  bottom: 70px;
+  transition: all 0.5s;
+	cursor: pointer;
+}
+
+.vietnam-choose:hover{
+	color: blue;
+	transform: translateY(-5px);
+}
+
+.thailand-exchange{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	bottom: 1rem;
+}
+
+.vietnam-exchange{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	bottom: 1rem;
+}
+
+.select-country-image{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	bottom: 5.2rem;
+	left: 28rem;
+}
+
+.select-exchange{
+position: relative;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 400;
+}
+
+.select-exchange-container{
+	font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	position: fixed;
+	height: 350px;
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 34px 36px 37px 36px;
+	border-radius: 10px;
+	border: #545454 solid 1px;
+	left: 30vh;
+	top: 20vh;
 }
 
 .selectRoomForRentContainer{
@@ -454,22 +644,50 @@ position: relative;
 		font-weight: 400;
 		font-style: normal;
 	position: fixed;
-	width: 500px;
+	height: 350px;
+	width: 800px;
 	display: flex;
 	flex-direction: column;
 	background-color: white;
 	padding: 34px 36px 37px 36px;
 	border-radius: 10px;
-	left: 50vh;
+	border: #545454 solid 1px;
+	left: 30vh;
 	top: 20vh;
 }
 
 .rentB{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 	position: relative;
-	left: 50px;
+	width: 400px;
+	height: 50px;
+	background-color: #00FF7F;
+	border-bottom : 5px solid #545454;
+	transition: transform 0.5s;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.rentB:hover{
+		transform: translateY(-5px);
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.219);
+}
+
+.buttons-rent-vietnam{
+	position: relative;
+	left: 26rem;
+	bottom: 20rem;
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .studioForRent{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 	margin-top: 1rem;
 }
 
@@ -802,38 +1020,53 @@ background-color: aquamarine;
 }
 
 .cars{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 	width: 500px;
 	height: 50px;
 	background-color:  #00FF7F;
 	border-bottom: 5px solid grey;
+	transition: transform 0.5s;
 	cursor: pointer;
 }
 .cars:hover{
-	opacity: 0.7;
+	transform: translateY(-5px);
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.219);
 }
 
 .bike{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 	width: 500x;
 	height: 50px;
 	background-color: #00FF7F;
 	border-bottom: 5px solid grey;
+	transition: transform 0.5s;
 	cursor: pointer;
 }
 
 .bike:hover{
-	opacity: 0.7;
+	transform: translateY(-5px);
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.219);
 }
 
 .transfer{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 	width: 500px;
 	height: 50px;
 	background-color:  #00FF7F;
 	border-bottom: 5px solid grey;
+	transition: transform 0.5s;
 	cursor: pointer;
 }
 
 .transfer:hover{
-	opacity: 0.7;
+	transform: translateY(-5px);
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.219);
 }
 
 .selectTypeOfVenicle{
@@ -883,9 +1116,13 @@ z-index: 1000;
 	}
 
 	.venicleHeader{
-		display: flex;
+		 font-family: "Ubuntu", sans-serif;
+ 		 font-weight: 400;
+ 		 font-style: normal;
+		position: relative;
 		justify-content: center;
-		margin-bottom: 30px;
+		bottom: 10px;
+		left: 50px;
 	}
 
 
@@ -1379,6 +1616,9 @@ z-index: 1000;
 	}
 	
 	.contactText{
+		font-family: "Ubuntu", sans-serif;
+ 		 font-weight: 400;
+  		font-style: normal;
 		white-space: nowrap;
 		margin-right: 30px;
 	}
@@ -1473,6 +1713,9 @@ z-index: 1000;
 	}
 	
 	.feedback__putNumber{
+		font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 		width: 300px;
 		height: 30px;
 		border: #42bd41 solid 3px;
@@ -1485,6 +1728,9 @@ z-index: 1000;
 	}
 	
 	.feedback__putName{
+		font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 		border: #42bd41 solid 3px;
 		height: 30px;
 	}
