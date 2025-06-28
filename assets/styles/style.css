@@ -202,6 +202,7 @@ height: 3.7rem;
 
 .hot-rent-text{
 	margin-bottom: 0.5rem;
+	color: #42bd41;
 }
 
 .hot-rent-image{
@@ -349,7 +350,12 @@ height: 3.7rem;
 	height: 53px;
 }
 
+.partyText{
+	color: #42bd41;
+}
+
 .textDocAuto{
+	color: #42bd41 ;
 	font-family: "Lobster", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -523,9 +529,10 @@ position: relative;
   font-style: normal;
   color: #42bd41;
   position: relative;
-  left: 100px;
+  right: 250px;
   bottom: 70px;
   transition: all 0.5s;
+  font-size: xx-large;
 	cursor: pointer;
 }
 
@@ -575,9 +582,10 @@ position: relative;
   font-style: normal;
   color: #42bd41;
   position: relative;
-  left: 100px;
+  right: 250px;
   bottom: 70px;
   transition: all 0.5s;
+  font-size: xx-large;
 	cursor: pointer;
 }
 
@@ -644,7 +652,7 @@ position: relative;
 		font-weight: 400;
 		font-style: normal;
 	position: fixed;
-	height: 350px;
+	height: 400px;
 	width: 800px;
 	display: flex;
 	flex-direction: column;
@@ -678,7 +686,7 @@ position: relative;
 .buttons-rent-vietnam{
 	position: relative;
 	left: 26rem;
-	bottom: 20rem;
+	bottom: 21.2rem;
 	font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -1028,6 +1036,7 @@ background-color: aquamarine;
 	background-color:  #00FF7F;
 	border-bottom: 5px solid grey;
 	transition: transform 0.5s;
+	border-radius: 5px;
 	cursor: pointer;
 }
 
@@ -1038,6 +1047,10 @@ background-color: aquamarine;
 
 a{
 	text-decoration: none;
+	color: black;
+	display: flex;
+	justify-content: center;
+	
 }
 
 .bike{
