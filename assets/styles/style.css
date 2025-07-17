@@ -328,13 +328,12 @@ height: 3.7rem;
 	opacity: 0.7;
 }
 
-.buttonClicks{
+.buttonsClick{
 	display: flex;
 }
 
 .downButtons{
 	display: flex;
-	flex-direction: row;
 	justify-content: space-evenly;
 }
 
